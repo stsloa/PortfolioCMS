@@ -1,0 +1,57 @@
+.sideNavB {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background: var(--light);
+}
+
+.sideNavC {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10vw;
+    height: 90vh;
+    background: var(--dark);
+
+}
+
+.linkC {
+    display: flex;
+    line-height: 1em;
+    color: var(--light);
+    height: 78vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkC a {
+    margin-top: 2vh;
+    text-decoration: none;
+    color: var(--light);
+}
+
+.linkC ion-icon {
+    color: var(--light);
+    font-size: 3em;
+}
+
+.logoutC {
+    display: flex;
+    line-height: 1vh;
+    color: var(--light);
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+}
+.logoutC a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+.logoutC p {
+    font-size: 2em;
+}
+
+.logoutC ion-icon {
+    font-size: 3em;
+}
